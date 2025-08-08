@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Excel數據處理積木化應用 (Block-based Excel Data Processing Application)",
+  "main": "main.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/vite",
+    "build": "./node_modules/.bin/vite build",
+    "start": "./node_modules/.bin/electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJSMYTNFBD/BlockToAPP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KJSMYTNFBD/BlockToAPP/issues"
+  },
+  "homepage": "https://github.com/KJSMYTNFBD/BlockToAPP#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "electron": "^37.2.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.1"
+  }
+}

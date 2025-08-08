@@ -1,0 +1,28 @@
+{
+  "id": "project-uuid",
+  "name": "項目名稱",
+  "description": "項目描述",
+  "version": "1.0.0",
+  "created": "2024-01-01T00:00:00Z",
+  "modified": "2024-01-01T00:00:00Z",
+  "blocks": [
+    {
+      "id": "block-uuid",
+      "type": "file-input",
+      "position": { "x": 100, "y": 100 },
+      "properties": {
+        "filePath": "./data/input.xlsx",
+        "sheetName": "Sheet1"
+      },
+      "connections": {
+        "output": ["next-block-uuid"]
+      }
+    }
+  ],
+  "metadata": {
+    "tags": ["數據處理", "Excel"],
+    "category": "個人項目",
+    "lastExecuted": "2024-01-01T00:00:00Z",
+    "executionCount": 5
+  }
+}
