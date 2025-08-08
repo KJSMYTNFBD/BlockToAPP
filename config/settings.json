@@ -1,0 +1,25 @@
+{
+  "ui": {
+    "theme": "light",
+    "language": "zh-TW",
+    "gridSize": 20,
+    "autoSave": true,
+    "autoSaveInterval": 30
+  },
+  "editor": {
+    "showGrid": true,
+    "snapToGrid": true,
+    "showDataPreview": true,
+    "maxPreviewRows": 100
+  },
+  "execution": {
+    "maxMemoryUsage": "1GB",
+    "timeoutLimit": 300,
+    "enableParallelExecution": true
+  },
+  "export": {
+    "defaultOutputPath": "./exports",
+    "includeComments": true,
+    "optimizeCode": true
+  }
+}
